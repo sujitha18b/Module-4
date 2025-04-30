@@ -1,12 +1,8 @@
 # Exp.No:19  
 ## CLASS AND OBJECTS - AREA OF CIRCLE
 
----
-
 ### AIM  
-To write a Python program to take the radius from the user and find the area of a circle using the class name `umbrella` and function name `rain`.
-
----
+To write Python Program to take the radius from the user and find the area of the circle using class name 'umbrella' and function name 'rain'
 
 ### ALGORITHM
 
@@ -23,21 +19,22 @@ To write a Python program to take the radius from the user and find the area of 
 7. Call the `rain` method of the `umbrella` class, passing the user-provided radius `r` as an argument.  
 8. Terminate the program.
 
----
 
 ### PROGRAM
 
-```
+import math      <br />
+class umbrella: <br />
+    def rain(r): <br />
+        return math.pi*r*r <br />
+r=int(input())   <br />
+obj=umbrella   <br />
+print("Area of circle:",round(obj.rain(r),2))
 
-
-
-```
 
 ### OUTPUT
+![Screenshot 2025-04-30 112410](https://github.com/user-attachments/assets/4d2211f6-f496-4752-8836-978c52b824b2)
 
 
 
 ### RESULT
-
-
-
+Thus,the given python program is implemented and executed sucessfully.

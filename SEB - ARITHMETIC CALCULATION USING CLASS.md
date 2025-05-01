@@ -1,7 +1,7 @@
-# Exp.No:20  
+# Exp.No:4E
 ## SEB - ARITHMETIC CALCULATION USING CLASS
 
----
+
 
 ### AIM  
 To write a Python program to perform addition and division operations using a class. The class should be named `Saveetha`, and the function names should be `setvalues` (to set `a` and `b` values), `add`, and `div`. The program should handle the following cases:  
@@ -10,7 +10,6 @@ To write a Python program to perform addition and division operations using a cl
 - `choice 0` → Exit  
 - For other choices, print 'Invalid choice'
 
----
 
 ### ALGORITHM
 
@@ -30,16 +29,34 @@ To write a Python program to perform addition and division operations using a cl
    - If the choice is not 1, 2, or 0, print "Invalid choice".  
 7. Terminate the program.
 
----
 
 ### PROGRAM
 
-```
+class saveetha: <br />
+    def add(self,a,b):  <br />
+        return a+b <br />
+   def mul(self,a,b): <br />
+        return a*b <br />
+        
+a = int(input()) <br />
+b = int(input())  <br />
+c = saveetha()      <br />
+choice = 1    <br />
 
-
-
-```
-
+while choice!=0:   <br />
+    choice = int(input())  <br />
+    if choice == 1:    <br />
+        print("Result: ",c.add(a,b))     <br />
+    elif choice == 2:     <br />
+        print("Result: ",c.mul(a,b))   <br />
+    elif choice == 0:    <br />
+        print("Exiting!")  <br />
+    else:    <br />
+        print("invalid choice")
+        
 ### OUTPUT
 
+![Screenshot 2025-05-01 121423](https://github.com/user-attachments/assets/d6deadf3-63f9-47fc-9eb4-39a0e8db5835)
+
 ### RESULT
+Thus, the python program is implemented and executed sucessfully.
